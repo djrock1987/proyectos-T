@@ -1,0 +1,230 @@
+/*BODY {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; margin: 0px;
+}
+A {
+	FONT-WEIGHT: normal;
+	COLOR: #003399;
+	TEXT-DECORATION: none
+}
+A:hover {
+	FONT-WEIGHT: normal;
+	COLOR: #003399;
+	TEXT-DECORATION: underline
+}
+A:visited {
+	FONT-WEIGHT: normal;
+	COLOR: #003399;
+	TEXT-DECORATION: none
+}
+A:active {
+	FONT-WEIGHT: normal;
+	COLOR: #003399;
+	TEXT-DECORATION: none
+}
+*/A.enlace {
+	FONT-WEIGHT: bold; FONT-SIZE: 9px; COLOR: #557038; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.enlace:hover {
+	FONT-WEIGHT: bold; COLOR: #557038; TEXT-DECORATION: underline
+}
+A.enlace:visited {
+	FONT-WEIGHT: bold; COLOR: #557038; TEXT-DECORATION: none
+}
+A.enlace:active {
+	FONT-WEIGHT: bold; COLOR: #557038; TEXT-DECORATION: none
+}
+A.enlace1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; COLOR: #003399; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.enlace1:hover {
+	FONT-WEIGHT: normal; COLOR: #003399; TEXT-DECORATION: underline
+}
+A.enlace1:visited {
+	FONT-WEIGHT: normal; COLOR: #003399; TEXT-DECORATION: none
+}
+A.enlace1:active {
+	FONT-WEIGHT: normal; COLOR: #003399; TEXT-DECORATION: none
+}
+A.enlace2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 9px; COLOR: #73a72c; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.enlace2:hover {
+	FONT-WEIGHT: bold; COLOR: #9abd3b; TEXT-DECORATION: underline
+}
+A.enlace2:visited {
+	FONT-WEIGHT: bold; COLOR: #7aa050; TEXT-DECORATION: none
+}
+A.enlace2:active {
+	FONT-WEIGHT: bold; COLOR: #9abd3b; TEXT-DECORATION: none
+}
+A.enlace3 {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #557038; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.enlace3:hover {
+	FONT-WEIGHT: normal; COLOR: #557038; TEXT-DECORATION: underline
+}
+A.enlace3:visited {
+	FONT-WEIGHT: normal; COLOR: #557038; TEXT-DECORATION: none
+}
+A.enlace3:active {
+	FONT-WEIGHT: normal; COLOR: #557038; TEXT-DECORATION: none
+	}
+A.enlace4 {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 10px;
+	COLOR: #006600;
+	FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	TEXT-DECORATION: none
+}
+A.enlace4:hover {
+	FONT-WEIGHT: bold;
+	COLOR: #006600;
+	TEXT-DECORATION: underline
+}
+A.enlace4:visited {
+	FONT-WEIGHT: bold;
+	COLOR: #006600;
+	TEXT-DECORATION: none
+}
+A.enlace4:active {
+	FONT-WEIGHT: bold;
+	COLOR: #006600;
+	TEXT-DECORATION: none
+}
+	
+	
+}
+H1.titulo11 {
+	FONT-SIZE: 21px; COLOR: #7aa050
+}
+H1.titulo12 {
+	FONT-SIZE: 21px; COLOR: #9abd3b
+}
+H1.titulo13 {
+	FONT-SIZE: 21px; COLOR: #568a00
+}
+H2.titulo21 {
+	FONT-SIZE: 16px; COLOR: #336600
+}
+H2.titulo22 {
+	FONT-SIZE: 16px; COLOR: #99cc00
+}
+H2.titulo23 {
+	FONT-SIZE: 16px; COLOR: #568a00
+}
+TD {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+TD.campo {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; BACKGROUND: #e6eeca; COLOR: #7aa050; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+TD.campo1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND: #b9d372; COLOR: #ffffff; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+TD.campo2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND: #7aa050; COLOR: #ffffff; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+
+
+TR {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+TR.campo {
+	FONT-WEIGHT: normal; FONT-SIZE: 9px; BACKGROUND: #e6eeca; COLOR: #7aa050; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+TR.campo1 {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND: #b9d372; COLOR: #ffffff; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+TR.campo2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; BACKGROUND: #7aa050; COLOR: #ffffff; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+
+
+.texto1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 21px; COLOR: #73a72c
+}
+.texto2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 19px; COLOR: #FF9900
+}
+.texto3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 15px; COLOR: #FF9900
+}
+.texto4 {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #557038
+}
+.texto5 {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #003399
+}
+.texto6 {
+	FONT-WEIGHT: bold; FONT-SIZE: 15px; COLOR: #73a72c
+}
+.texto7 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #003399
+}
+.texto8 {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 18px;
+	COLOR: White;
+}
+.texto9 {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 15px;
+	COLOR: White;
+}
+
+.texto10 {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 18px;
+	COLOR: #00973D;
+}
+
+.texto11 {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 15px;
+	COLOR: #CC0033;
+}
+
+.texto12{
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 13px;
+	COLOR: #006600;
+}
+TABLE.recuadro {
+	BORDER-RIGHT: #000099 thin solid; BORDER-TOP: #000099 thin solid; BORDER-LEFT: #000099 thin solid; BORDER-BOTTOM: #000099 thin solid
+}
+TABLE.formulario {
+	BORDER-RIGHT: #d2d2d2 thin solid; BORDER-TOP: #d2d2d2 thin solid; BORDER-LEFT: #d2d2d2 thin solid; BORDER-BOTTOM: #d2d2d2 thin solid
+}
+INPUT {
+	FONT-WEIGHT: normal; FONT-SIZE: 7pt; COLOR: black; BACKGROUND-COLOR: #ffffff
+}
+TEXTAREA {
+	FONT-WEIGHT: normal; FONT-SIZE: 7pt; COLOR: black; BACKGROUND-COLOR: #ffffff
+}
+SELECT {
+	FONT-WEIGHT: normal; FONT-SIZE: 7pt; COLOR: black; BACKGROUND-COLOR: #ffffff
+}
+BUTTON {
+	FONT-WEIGHT: bold; FONT-SIZE: 7pt; FONT-FAMILY: verdana,tahoma,arial,helvetica; BACKGROUND-COLOR: #ffffff
+}
+SELECT.estilo1 {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid
+}
+TEXTAREA.estilo1 {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid
+}
+INPUT.estilo1 {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid
+}
+TEXTAREA.code {
+	BORDER-RIGHT: 1px solid; BORDER-TOP: 1px solid; BORDER-LEFT: 1px solid; BORDER-BOTTOM: 1px solid
+}
+SELECT.estilo1 {
+	BORDER-LEFT-COLOR: #888888; BORDER-BOTTOM-COLOR: #888888; BORDER-TOP-COLOR: #888888; BORDER-RIGHT-COLOR: #888888
+}
+TEXTAREA.estilo1 {
+	BORDER-LEFT-COLOR: #888888; BORDER-BOTTOM-COLOR: #888888; BORDER-TOP-COLOR: #888888; BORDER-RIGHT-COLOR: #888888
+}
+INPUT.estilo1 {
+	BORDER-LEFT-COLOR: #888888; BORDER-BOTTOM-COLOR: #888888; BORDER-TOP-COLOR: #888888; BORDER-RIGHT-COLOR: #888888
+}

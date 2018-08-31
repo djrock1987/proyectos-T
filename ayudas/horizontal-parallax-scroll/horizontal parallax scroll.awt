@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lectoratitle lectorafileversion="16.2" lectoraproductversion="17.1.3" lectoraproductname="Lectora Inspire" lectoraproductcode="LD">
+<titledata titletype="standard">
+<currentid>779</currentid>
+<currtheme></currtheme>
+<language>en</language>
+<ribbonpasteoption>0</ribbonpasteoption>
+<logpixelsx>96</logpixelsx>
+<logpixelsy>96</logpixelsy>
+</titledata>
+<resourcedata>
+<resource id="52" resourcetype="other">
+<name>rellax.js</name>
+<relativelink>extern\rellax.js</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="56" resourcetype="image">
+<name>nasa3.jpg</name>
+<relativelink>images\nasa3.jpg</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+<resource id="254" resourcetype="other">
+<name>jquery-3.3.1.min.js</name>
+<relativelink>extern\jquery-3.3.1.min.js</relativelink>
+<fileoffset>000000000000</fileoffset>
+<filelength>000000000000</filelength>
+<uncompressedlength>000000000000</uncompressedlength>
+<resourceflags>000000000000</resourceflags>
+</resource>
+</resourcedata>
+<variabledata />
+<objectdefaults />
+<objectdata>
+<title id="1" bgimage="56" center="center">
+<name>horizontal parallax scroll</name>
+<lastupdated>1525876269</lastupdated>
+<bgcolor>FFFFFF</bgcolor>
+<textcolor>000000</textcolor>
+<linkcolor>0000FF</linkcolor>
+<width>3009</width>
+<height>662</height>
+<font>
+<height>12</height>
+<facename>Arial</facename>
+</font>
+<custformelement formelemtype="radiobutton">
+<onimage predefid="7250" />
+<offimage predefid="7251" />
+</custformelement>
+<other id="42" parent="1" resource="52" ontop="false" fixed="false" proportional="false" externaltype="javascript" usejar="true">
+<name>rellax</name>
+<lastupdated>1525875286</lastupdated>
+<possize>
+<point>
+<x>-91</x>
+<y>109</y>
+</point>
+<size>
+<cx>300</cx>
+<cy>200</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+</other>
+<page id="2" parent="1">
+<name>Page 1</name>
+<lastupdated>1525876269</lastupdated>
+<transitionin>
+<transtype>-1</transtype>
+<delay>0</delay>
+<speed>10</speed>
+<effect>0</effect>
+</transitionin>
+<action id="147" parent="2" on="show">
+<name>OnShowRunJS</name>
+<lastupdated>1525876245</lastupdated>
+<actionitem actiontaken="runjavascript">
+<targetstring>  var rellax = new Rellax(&apos;.rellax&apos;, {&#x0D;&#x0A;    speed: -10,&#x0D;&#x0A;    vertical: false,&#x0D;&#x0A;    horizontal: true,&#x0D;&#x0A;  });&#x0D;&#x0A;&#x0D;&#x0A;&#x0D;&#x0A;  var rellax2 = new Rellax(&apos;.rellax2&apos;, {&#x0D;&#x0A;    speed: -7,&#x0D;&#x0A;    vertical: false,&#x0D;&#x0A;    horizontal: true,&#x0D;&#x0A;  });&#x0D;&#x0A;&#x0D;&#x0A;  var rellax3 = new Rellax(&apos;.rellax3&apos;, {&#x0D;&#x0A;    speed: -4,&#x0D;&#x0A;    vertical: false,&#x0D;&#x0A;    horizontal: true,&#x0D;&#x0A;  });</targetstring>
+<browserWnd />
+</actionitem>
+</action>
+<shape id="57" parent="2" ontop="false" fixed="false" proportional="false">
+<name>Red Diamond</name>
+<lastupdated>1525875589</lastupdated>
+<possize>
+<point>
+<x>765</x>
+<y>9</y>
+</point>
+<size>
+<cx>159</cx>
+<cy>159</cy>
+</size>
+</possize>
+<cssclasses>rellax</cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30600</type>
+<linestyle>0</linestyle>
+<strokewidth>2</strokewidth>
+<strokecolor>000000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="CC0000" />
+</shape>
+<shape id="73" parent="2" ontop="false" fixed="false" proportional="false">
+<name>Yellow Diamond</name>
+<lastupdated>1525875595</lastupdated>
+<possize>
+<point>
+<x>765</x>
+<y>172</y>
+</point>
+<size>
+<cx>159</cx>
+<cy>159</cy>
+</size>
+</possize>
+<cssclasses>rellax2</cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30600</type>
+<linestyle>0</linestyle>
+<strokewidth>2</strokewidth>
+<strokecolor>000000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="FFFF00" />
+</shape>
+<shape id="289" parent="2" ontop="false" fixed="false" proportional="false">
+<name>Green Diamond</name>
+<lastupdated>1525875611</lastupdated>
+<possize>
+<point>
+<x>765</x>
+<y>336</y>
+</point>
+<size>
+<cx>159</cx>
+<cy>159</cy>
+</size>
+</possize>
+<cssclasses>rellax3</cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30600</type>
+<linestyle>0</linestyle>
+<strokewidth>2</strokewidth>
+<strokecolor>000000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="009E0F" />
+</shape>
+<shape id="673" parent="2" ontop="false" fixed="false" proportional="false">
+<name>White Diamond</name>
+<lastupdated>1525876227</lastupdated>
+<possize>
+<point>
+<x>765</x>
+<y>503</y>
+</point>
+<size>
+<cx>159</cx>
+<cy>159</cy>
+</size>
+</possize>
+<cssclasses></cssclasses>
+<opacity>100</opacity>
+<autosize>0</autosize>
+<type>30600</type>
+<linestyle>0</linestyle>
+<strokewidth>2</strokewidth>
+<strokecolor>000000</strokecolor>
+<text></text>
+<textcolor>FFFFFF</textcolor>
+<fontsize>-16</fontsize>
+<fontheight>12</fontheight>
+<fontstyle>0</fontstyle>
+<textalignment>1</textalignment>
+<fontfamily>Lucida Sans Unicode</fontfamily>
+<handledata />
+<shapefillinfo fillstyle="0" gradientangle="315" bevelheight="0" color="FFFFFF" />
+</shape>
+</page>
+</title>
+</objectdata>
+</lectoratitle>
